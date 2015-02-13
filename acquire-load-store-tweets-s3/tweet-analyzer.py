@@ -128,11 +128,11 @@ def datetime_partition(start, end, duration):
 
 def get_tweepy_api():
     """Tweepy API"""
-    consumer_key = "fRr3Rrd08IKUQTEuHzJcw";
-    consumer_secret = "hyA4XrtmYOrxlw8dAn97Ji7RLMRWZfOdOaAfih3UdM";
+    consumer_key = "";
+    consumer_secret = "";
 
-    access_token = "2254156519-OfuXeTslD47o0YpR3vEBqXyIMu50GpPd7yecFtT";
-    access_token_secret = "43DzymYK5LWimKewVWuOgqSnEz61fSDSk8fA7FomHLd1O";
+    access_token = "";
+    access_token_secret = "";
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -142,7 +142,7 @@ def get_tweepy_api():
 
 def move_tweets_s3(bucket_name):
     """Move Tweets to S3 Bucket"""
-    conn = S3Connection('AKIAIPYVQMLNGGONJCCQ', 'svA54gQ1VhvJV8nCO1QrbI44XJdU1ZgAFJLcLfJd')
+    conn = S3Connection('', '')
 
     # Delete Bucket contents and Bucket, if one is available
     bucket = None
