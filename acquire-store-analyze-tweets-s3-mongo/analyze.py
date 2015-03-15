@@ -130,7 +130,9 @@ class Analyze(object):
         """Unfollowers ever since data was collected"""
         db_followers = Mongo(self.DB_FOLLOWERS)
         followers = db_followers.collection("followers")
+
         # Get users with highest number of followers
+        l = []
         cnt = 0
         last_user = None
         for c in followers.find({}, {'id': 1, 'screen_name': 1, 'num_followers': 1, 'followers': 1}).sort('num_followers', -1):
@@ -144,6 +146,17 @@ class Analyze(object):
 
             logger.info("{0} : {1}".format(c['screen_name'], c['num_followers']))
 
+            l.append((c['id'], c['screen_name'], c['followers']))
+
+            last_user = c['screen_name']
+            cnt += 1
+            if cnt >= 10:
+                break
+
+
+        for id,sn,f in l:
+            print(id, sn, len(f))
+
             # Fetch new followers using tweepy
             followers = []
 
@@ -151,7 +164,7 @@ class Analyze(object):
             rate_limit_cnt = 0
             while rate_limit_cnt <= self.MAX_RATE_LIMIT_COUNT:
                 try:
-                    for page in tweepy.Cursor(api.followers_ids, screen_name=c['screen_name']).pages():
+                    for page in tweepy.Cursor(api.followers_ids, screen_name=sn).pages():
                         followers.extend(page)
                         time.sleep(60) # Uncomment this if throwing rate limit error
                     break
@@ -165,17 +178,12 @@ class Analyze(object):
                     time.sleep(60 * self.SLEEP_MINS)
                     continue  # Without incrementing count
 
-            if len(followers) != len(c['followers']):
-                old_followers = set(c['followers'])
-                new_followers = set(followers)
+            old_followers = set(f)
+            new_followers = set(followers)
 
-                logger.info("Lengths of old:{0} & new:{1} followers don't match".format(len(old_followers), len(new_followers)))
-                logger.info("Unfollowed Friends of {0}: {1}".format(c['screen_name'], old_followers - new_followers))
+            logger.info("Lengths of old:{0} & new:{1} followers don't match".format(len(old_followers), len(new_followers)))
+            logger.info("Unfollowed Friends of {0}: {1}".format(c['screen_name'], old_followers - new_followers))
 
-            last_user = c['screen_name']
-            cnt += 1
-            if cnt >= 10:
-                break
 
 
     def __lexical_diversity(self, text):
