@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     # Retrieve and Analyze Tweets
     a = Analyze()
-    #a.top_30_retweets()
-    #a.lexical_diversity_tweets()
-    a.followers()
+    a.top_30_retweets()
+    a.lexical_diversity_tweets()
+    #a.followers()
 

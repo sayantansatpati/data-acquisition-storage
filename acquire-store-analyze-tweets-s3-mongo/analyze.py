@@ -24,7 +24,7 @@ class Analyze(object):
     MAX_RATE_LIMIT_COUNT = 5
     SLEEP_MINS = 15
 
-    USERS_FILE = "users.txt"
+    USERS_FILE = "output_users.txt"
 
     def __init__(self):
         self.config = Config()
@@ -78,10 +78,11 @@ class Analyze(object):
         for c in stream_tweets.find({}, {'text': 1}):
             ld = self.__lexical_diversity(c["text"])
             ld_list.append(ld)
-            logger.info(c["_id"], ld, c["text"])
+            #logger.info(c["_id"], str(ld), c["text"])
+            logger.info(c)
             # Update Lexical Diversity
             ld_dict = {"lexical_diversity": ld}
-            #stream_tweets.update({'_id': c["_id"]}, {"$set": ld_dict}, upsert=False)
+            stream_tweets.update({'_id': c["_id"]}, {"$set": ld_dict}, upsert=False)
 
         # Plot Lexical Diversity
         fdist = FreqDist(ld_list)

@@ -4,9 +4,11 @@ __author__ = 'ssatpati'
 
 import random
 import nltk
+import os
 import pprint
 
-USERS_FILE = "users.txt"
+USERS_FILE = "output_users.txt"
+OUTPUT_FILE = "output-sentiment-analysis.txt"
 
 pos_tweets = [('I love this car', 'positive'),
               ('This view is amazing', 'positive'),
@@ -73,13 +75,17 @@ def sentiment_analysis():
     print("@@@ Training Classifier using Training Set")
     classifier = nltk.NaiveBayesClassifier.train(training_set)
 
+    if os.path.exists(OUTPUT_FILE):
+            os.remove(OUTPUT_FILE)
+
     with open(USERS_FILE, "r") as f:
         lines = f.readlines()
-        for l in lines:
-            tweet_text = l.strip().split(",")[3]
-            print(tweet_text)
-            print(classifier.classify(extract_features(tweet_text)))
-            print("-----------------------------------")
+        with open(OUTPUT_FILE, "a") as f1:
+            for l in lines:
+                tweet_text = l.strip().split(",")[3]
+                f1.write("Tweet: " + tweet_text + "\n")
+                f1.write("Sentiment: " + classifier.classify(extract_features(tweet_text)) + "\n")
+                f1.write("\n\n")
 
 if __name__ == '__main__':
     sentiment_analysis()
