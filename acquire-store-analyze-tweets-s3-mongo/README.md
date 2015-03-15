@@ -6,7 +6,7 @@
 2. **analyze.py:** Section 2 Retrieving and Analyzing Tasks
 3. **backup-restore.py:** Section 3 Storing and Retrieving Tasks
 4. **tweet-nltk-sentiment-analysis.py:** Bonus Task from Section 2 above
-5. **main-driver.py:** Main Driver for the Program 
+5. **main-driver.py:** Main Driver for the Program (Used to test the different modules) 
 6. **util package:** All utilities used by the different Python Modules
 
 ## S3 Link

@@ -67,7 +67,6 @@ class Analyze(object):
                         k.encode('utf-8')
                         + "\n")
 
-
     def lexical_diversity_tweets(self):
         """Compute Lexical Diversity & Store it Back in Collection"""
         db_stream = Mongo(self.DB_STREAM)
@@ -89,8 +88,8 @@ class Analyze(object):
         logger.info(fdist.items())
         fdist.plot()
 
-
     def followers(self):
+        """Find followers"""
         db_followers = Mongo(self.DB_FOLLOWERS)
         followers = db_followers.collection("followers")
 
@@ -121,11 +120,62 @@ class Analyze(object):
                     logger.error("[User: %s] Exception while getting followers: %s", screen_name, te)
                     logger.info("[%d] Sleeping for %d mins", rate_limit_cnt, self.SLEEP_MINS)
                     time.sleep(60 * self.SLEEP_MINS)
-                    continue # Without incrementing count
+                    continue  # Without incrementing count
 
                 logger.info("Total # of followers: %d", len(follower_list))
                 followers.insert({"id": user_id, "screen_name": screen_name, "num_followers": len(follower_list), "followers": follower_list})
                 cnt += 1 # Process next user if everything is successful
+
+    def unfollowers(self):
+        """Unfollowers ever since data was collected"""
+        db_followers = Mongo(self.DB_FOLLOWERS)
+        followers = db_followers.collection("followers")
+        # Get users with highest number of followers
+        cnt = 0
+        last_user = None
+        for c in followers.find({}, {'id': 1, 'screen_name': 1, 'num_followers': 1, 'followers': 1}).sort('num_followers', -1):
+            if last_user is None:
+                last_user = c['screen_name']
+            else:
+                if last_user == c['screen_name']:
+                    last_user = c['screen_name']
+                    continue
+
+
+            logger.info("{0} : {1}".format(c['screen_name'], c['num_followers']))
+
+            # Fetch new followers using tweepy
+            followers = []
+
+            api = self.__get_tweepy_api()
+            rate_limit_cnt = 0
+            while rate_limit_cnt <= self.MAX_RATE_LIMIT_COUNT:
+                try:
+                    for page in tweepy.Cursor(api.followers_ids, screen_name=c['screen_name']).pages():
+                        followers.extend(page)
+                        time.sleep(60) # Uncomment this if throwing rate limit error
+                    break
+                except tweepy.TweepError as te:
+                    # Check whether Max Rate Limiting has been reached
+                    rate_limit_cnt += 1
+                    if rate_limit_cnt >= self.MAX_RATE_LIMIT_COUNT:
+                        raise
+                    logger.error("[User: %s] Exception while getting followers: %s", screen_name, te)
+                    logger.info("[%d] Sleeping for %d mins", rate_limit_cnt, self.SLEEP_MINS)
+                    time.sleep(60 * self.SLEEP_MINS)
+                    continue  # Without incrementing count
+
+            if len(followers) != len(c['followers']):
+                old_followers = set(c['followers'])
+                new_followers = set(followers)
+
+                logger.info("Lengths of old:{0} & new:{1} followers don't match".format(len(old_followers), len(new_followers)))
+                logger.info("Unfollowed Friends of {0}: {1}".format(c['screen_name'], old_followers - new_followers))
+
+            last_user = c['screen_name']
+            cnt += 1
+            if cnt >= 10:
+                break
 
 
     def __lexical_diversity(self, text):

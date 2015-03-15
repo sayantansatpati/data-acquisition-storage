@@ -26,7 +26,10 @@ if __name__ == '__main__':
 
     # Retrieve and Analyze Tweets
     a = Analyze()
-    a.top_30_retweets()
-    a.lexical_diversity_tweets()
+    #a.top_30_retweets()
+    #a.lexical_diversity_tweets()
+    # The following takes time due to rate limiting, so has been commented out since it has already been done
     #a.followers()
+    a.unfollowers()
+
 
