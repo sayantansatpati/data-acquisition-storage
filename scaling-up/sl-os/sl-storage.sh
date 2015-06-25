@@ -35,7 +35,7 @@ do
 	end=$(date +"%s")
 	diff=$(( $end - $start ))
 	echo "[INFO] $(($diff / 60)) minutes and $(($diff % 60)) seconds elapsed."
-	echo "[INFO] Transfer Rate: $((1024*1024*1024 / $diff)) kb/sec"
+	echo "[INFO] Transfer Rate: $((1024*1024 / $diff)) kb/sec"
 
 	echo "[INFO] Listing Container Contents"
 	curl -s -i -H "X-Auth-Token:$token" $url/${container}
@@ -46,7 +46,7 @@ do
 	end=$(date +"%s")
         diff=$(( $end - $start ))
         echo "[INFO] $(($diff / 60)) minutes and $(($diff % 60)) seconds elapsed."
-        echo "[INFO] Transfer Rate: $((1024*1024*1024 / $diff)) kb/sec"
+        echo "[INFO] Transfer Rate: $((1024*1024 / $diff)) kb/sec"
 done
 
 echo "[INFO] Uploading/Downloading Data in Parallel.."
@@ -67,7 +67,7 @@ wait $pid2
 end=$(date +"%s")
 diff=$(( $end - $start ))
 echo "[INFO] $(($diff / 60)) minutes and $(($diff % 60)) seconds elapsed."
-echo "[INFO] Transfer Rate: $((1024*1024*1024 / $diff)) kb/sec"
+echo "[INFO] Transfer Rate: $((1024*1024 / $diff)) kb/sec"
 
 
 
