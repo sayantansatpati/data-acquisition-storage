@@ -32,9 +32,10 @@ def range_partition():
 
 def consistent_hashing():
     d = {}
+    range_per_shard = pow(2,32) / 26
     with open("/usr/share/dict/words", "r") as f:
         for l in f:
-            shard = crc(l) % 26
+            shard = crc(l) // range_per_shard
             if d.get(shard):
                 d[shard].append(l)
             else:
@@ -43,7 +44,7 @@ def consistent_hashing():
     shard_lengths = []
     for k, v in d.iteritems():
         shard_lengths.append(len(v))
-        print(k, len(v))
+        #print(k, len(v))
 
     plt.bar(xrange(len(d)), shard_lengths, align='center')
     plt.xticks(xrange(len(d)), d.keys())
