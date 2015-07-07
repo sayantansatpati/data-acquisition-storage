@@ -1162,3 +1162,6 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 
 !ENTRY org.scala-ide.sdt.core 1 0 2015-07-06 16:26:37.248
 !MESSAGE Timeout while resolving hyperlink in /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/main/scala/edu/berkeley/mids/scaling/streaming/twitter/Twitter.scala at: offset: 748, length: 0
+
+!ENTRY org.scala-ide.sdt.core 1 0 2015-07-06 18:17:37.243
+!MESSAGE Timeout while resolving hyperlink in /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/main/scala/edu/berkeley/mids/scaling/streaming/twitter/Twitter.scala at: offset: 2983, length: 0

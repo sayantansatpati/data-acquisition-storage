@@ -56,14 +56,16 @@ object Twitter {
                            Seconds(10))
                        .transform(_.sortByKey(false))
                        
+    tweets.print()
+                       
     // Print popular hashtags
     tweets.foreachRDD(rdd => {
       val topList = rdd.takeOrdered(top_n)(Ordering[Int].reverse.on(x=> (x._2)._3))
-      println("\nPopular topics in last 30 seconds (%s total):".format(rdd.count()))
-      topList.foreach{case (tag, (author, userMention, count)) => println("%s\t%s\t%s\t%s".format(tag, author, userMention, count))}
+      println("\n\n### Popular topics in last 30 seconds (%s total):".format(rdd.count()))
+      topList.foreach{case (tag, (author, userMention, count)) => println("%s\t%s\t%s\t%s".format(tag, author.toString(), userMention.toString(), count))}
+      println("--------------------------------------------------------------------")
+      println("--------------------------------------------------------------------")
     })
-                       
-    tweets.print()
     
     sys.ShutdownHookThread {
       println("Gracefully stopping Spark Streaming Application")
