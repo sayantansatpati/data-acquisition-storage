@@ -1,0 +1,979 @@
+2015-07-05 17:42:55,569 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/alchim31/maven/scala-archetype-simple/1.5/scala-archetype-simple-1.5.pom
+2015-07-05 17:42:55,600 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/alchim31/maven/scala-archetype-simple/1.5/scala-archetype-simple-1.5.pom
+2015-07-05 17:42:55,636 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/alchim31/maven/scala-archetype-simple/1.5/scala-archetype-simple-1.5.jar
+2015-07-05 17:42:55,664 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/alchim31/maven/scala-archetype-simple/1.5/scala-archetype-simple-1.5.jar
+2015-07-05 17:50:04,172 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml
+2015-07-05 17:50:04,897 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/net/alchim31/maven/scala-maven-plugin/3.1.3/scala-maven-plugin-3.1.3.pom
+2015-07-05 17:50:05,093 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/net/alchim31/maven/scala-maven-plugin/3.1.3/scala-maven-plugin-3.1.3.pom
+2015-07-05 17:50:05,229 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/net/alchim31/maven/scala-maven-plugin/3.1.3/scala-maven-plugin-3.1.3.jar
+2015-07-05 17:50:05,687 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/net/alchim31/maven/scala-maven-plugin/3.1.3/scala-maven-plugin-3.1.3.jar
+2015-07-05 17:50:05,888 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2015-07-05 17:50:06,164 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2015-07-05 17:50:06,324 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-surefire-plugin/2.13/maven-surefire-plugin-2.13.jar
+2015-07-05 17:50:06,607 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-surefire-plugin/2.13/maven-surefire-plugin-2.13.jar
+2015-07-05 17:50:06,778 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2015-07-05 17:50:06,887 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2015-07-05 17:50:07,265 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom
+2015-07-05 17:50:07,373 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom
+2015-07-05 17:50:07,498 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
+2015-07-05 17:50:07,605 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
+2015-07-05 17:50:07,851 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+2015-07-05 17:50:07,961 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+2015-07-05 17:50:08,070 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+2015-07-05 17:50:08,178 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+2015-07-05 17:50:08,310 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+2015-07-05 17:50:08,418 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+2015-07-05 17:50:08,535 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+2015-07-05 17:50:08,647 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+2015-07-05 17:50:08,759 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+2015-07-05 17:50:08,879 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+2015-07-05 17:50:09,047 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
+2015-07-05 17:50:09,153 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
+2015-07-05 17:50:09,270 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar
+2015-07-05 17:50:09,714 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar
+2015-07-05 17:50:09,818 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar
+2015-07-05 17:50:10,360 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar
+2015-07-05 17:50:10,466 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar
+2015-07-05 17:50:10,659 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar
+2015-07-05 17:50:10,763 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar
+2015-07-05 17:50:10,871 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar
+2015-07-05 17:50:10,973 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar
+2015-07-05 17:50:11,083 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar
+2015-07-05 17:50:11,186 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar
+2015-07-05 17:50:11,468 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar
+2015-07-05 17:50:11,572 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar
+2015-07-05 17:50:11,681 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar
+2015-07-05 17:50:11,784 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar
+2015-07-05 17:50:11,890 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar
+2015-07-05 17:50:11,995 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar
+2015-07-05 17:50:12,273 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar
+2015-07-05 17:50:12,377 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
+2015-07-05 17:50:12,486 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
+2015-07-05 17:50:12,593 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar
+2015-07-05 17:50:12,700 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar
+2015-07-05 17:50:12,805 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar
+2015-07-05 17:50:12,995 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar
+2015-07-05 17:50:13,097 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar
+2015-07-05 17:50:13,203 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar
+2015-07-05 17:50:13,309 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar
+2015-07-05 17:50:13,415 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar
+2015-07-05 17:50:13,519 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar
+2015-07-05 17:50:13,794 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar
+2015-07-05 17:50:13,896 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+2015-07-05 17:50:14,004 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+2015-07-05 17:50:14,106 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+2015-07-05 17:50:14,213 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+2015-07-05 17:50:14,318 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+2015-07-05 17:50:14,425 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+2015-07-05 17:50:14,528 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+2015-07-05 17:50:14,633 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+2015-07-05 17:50:14,735 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+2015-07-05 17:50:15,018 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+2015-07-05 17:50:15,123 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+2015-07-05 17:50:15,229 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+2015-07-05 17:50:15,341 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/log4j/log4j/1.2.12/log4j-1.2.12.jar
+2015-07-05 17:50:15,788 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/log4j/log4j/1.2.12/log4j-1.2.12.jar
+2015-07-05 17:50:15,890 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/junit/junit/3.8.2/junit-3.8.2.jar
+2015-07-05 17:50:16,081 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/junit/junit/3.8.2/junit-3.8.2.jar
+2015-07-05 17:50:16,564 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 17:50:16,776 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/specs2/specs2_2.10/1.13/specs2_2.10-1.13.pom
+2015-07-05 17:50:16,887 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/specs2/specs2_2.10/1.13/specs2_2.10-1.13.pom
+2015-07-05 17:50:17,108 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.pom
+2015-07-05 17:50:17,218 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.pom
+2015-07-05 17:50:17,364 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/specs2/scalaz-concurrent_2.10/7.0.0/scalaz-concurrent_2.10-7.0.0.pom
+2015-07-05 17:50:17,474 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/specs2/scalaz-concurrent_2.10/7.0.0/scalaz-concurrent_2.10-7.0.0.pom
+2015-07-05 17:50:17,623 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0.pom
+2015-07-05 17:50:17,732 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0.pom
+2015-07-05 17:50:17,959 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/scalatest/scalatest_2.10/2.0.M6-SNAP8/scalatest_2.10-2.0.M6-SNAP8.pom
+2015-07-05 17:50:18,069 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/scalatest/scalatest_2.10/2.0.M6-SNAP8/scalatest_2.10-2.0.M6-SNAP8.pom
+2015-07-05 17:50:18,204 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar
+2015-07-05 17:50:22,322 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar
+2015-07-05 17:50:22,433 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/specs2/specs2_2.10/1.13/specs2_2.10-1.13.jar
+2015-07-05 17:50:24,651 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/specs2/specs2_2.10/1.13/specs2_2.10-1.13.jar
+2015-07-05 17:50:24,762 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.jar
+2015-07-05 17:50:26,517 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/specs2/scalaz-core_2.10/7.0.0/scalaz-core_2.10-7.0.0.jar
+2015-07-05 17:50:26,626 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/specs2/scalaz-concurrent_2.10/7.0.0/scalaz-concurrent_2.10-7.0.0.jar
+2015-07-05 17:50:26,743 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/specs2/scalaz-concurrent_2.10/7.0.0/scalaz-concurrent_2.10-7.0.0.jar
+2015-07-05 17:50:26,855 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0.jar
+2015-07-05 17:50:26,991 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/specs2/scalaz-effect_2.10/7.0.0/scalaz-effect_2.10-7.0.0.jar
+2015-07-05 17:50:27,121 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/scalatest/scalatest_2.10/2.0.M6-SNAP8/scalatest_2.10-2.0.M6-SNAP8.jar
+2015-07-05 17:50:29,471 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/scalatest/scalatest_2.10/2.0.M6-SNAP8/scalatest_2.10-2.0.M6-SNAP8.jar
+2015-07-05 17:50:30,083 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
+2015-07-05 17:50:30,187 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
+2015-07-05 17:50:30,290 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar
+2015-07-05 17:50:30,644 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar
+2015-07-05 17:50:30,747 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar
+2015-07-05 17:50:30,852 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar
+2015-07-05 17:50:30,958 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+2015-07-05 17:50:31,149 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+2015-07-05 17:50:31,249 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
+2015-07-05 17:50:31,355 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
+2015-07-05 17:50:31,458 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar
+2015-07-05 17:50:31,818 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar
+2015-07-05 17:50:31,919 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar
+2015-07-05 17:50:32,020 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar
+2015-07-05 17:50:32,121 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+2015-07-05 17:50:32,224 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+2015-07-05 17:50:32,325 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar
+2015-07-05 17:50:32,424 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar
+2015-07-05 17:50:32,526 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar
+2015-07-05 17:50:32,629 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar
+2015-07-05 17:50:32,733 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/classworlds/classworlds/1.1/classworlds-1.1.jar
+2015-07-05 17:50:32,836 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/classworlds/classworlds/1.1/classworlds-1.1.jar
+2015-07-05 17:50:32,940 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar
+2015-07-05 17:50:33,127 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar
+2015-07-05 17:50:33,228 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+2015-07-05 17:50:33,333 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+2015-07-05 17:50:33,435 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar
+2015-07-05 17:50:33,624 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar
+2015-07-05 17:50:33,725 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar
+2015-07-05 17:50:33,827 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar
+2015-07-05 17:50:34,145 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /twitter/src/main/scala
+2015-07-05 17:50:34,183 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /twitter/src/test/scala
+2015-07-05 17:50:34,277 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 30 sec
+2015-07-05 17:50:34,814 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:50:34,814 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/main/resources
+2015-07-05 17:50:34,817 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:50:34,817 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 17:51:01,155 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 17:51:01,326 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:51:01,326 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/main/resources
+2015-07-05 17:51:01,329 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:51:01,329 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 17:51:37,316 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 17:51:38,439 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:51:38,439 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/main/resources
+2015-07-05 17:51:38,441 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:51:38,441 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 17:56:05,735 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:56:05,735 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/main/resources
+2015-07-05 17:56:05,737 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:56:05,737 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 17:56:28,735 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:56:28,735 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/main/resources
+2015-07-05 17:56:28,736 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:56:28,736 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 17:56:35,210 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-07-05 17:56:45,543 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter
+2015-07-05 17:56:45,544 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -X -e clean package
+2015-07-05 17:58:20,822 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:58:20,823 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/main/resources
+2015-07-05 17:58:20,824 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:58:20,824 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 17:59:32,594 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/spark/spark-streaming-twitter_2.10/1.4.0/spark-streaming-twitter_2.10-1.4.0-sources.jar
+2015-07-05 17:59:32,700 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/spark/spark-streaming-twitter_2.10/1.4.0/spark-streaming-twitter_2.10-1.4.0-sources.jar
+2015-07-05 17:59:32,715 [Worker-27] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.spark:spark-streaming-twitter_2.10:1.4.0
+2015-07-05 17:59:33,345 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:59:33,346 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/main/resources
+2015-07-05 17:59:33,347 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 17:59:33,347 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:15:28,433 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:15:28,458 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:15:28,460 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:15:28,460 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:15:50,255 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:15:50,255 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-05 18:15:50,264 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:15:50,264 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:16:24,598 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:16:24,598 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-05 18:16:24,602 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:16:24,603 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:17:06,661 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 18:17:07,638 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:17:07,639 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:17:07,641 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:17:07,641 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:17:39,050 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:17:39,050 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:17:39,052 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:17:39,052 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:17:46,671 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:17:46,671 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:17:46,672 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:17:46,672 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:18:33,702 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:18:33,702 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:18:33,703 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:18:33,703 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:18:56,371 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:18:56,371 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:18:56,372 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:18:56,372 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:18:58,470 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:18:58,470 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:18:58,471 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:18:58,471 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:19:00,326 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:19:00,326 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:19:00,327 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:19:00,328 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:19:04,520 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:19:04,520 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:19:04,522 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:19:04,522 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:19:08,824 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:19:08,824 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:19:08,825 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:19:08,825 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:19:18,103 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:19:18,104 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:19:18,105 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:19:18,105 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:19:39,455 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:19:39,455 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:19:39,457 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:19:39,457 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:20:12,670 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:20:12,670 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:20:12,672 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:20:12,672 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:20:22,609 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:20:22,609 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:20:22,610 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:20:22,610 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:20:41,066 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:20:41,066 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:20:41,067 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:20:41,067 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:20:46,149 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:20:46,149 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:20:46,150 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:20:46,150 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:20:48,301 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:20:48,302 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:20:48,303 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:20:48,303 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:21:01,534 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:01,534 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:21:01,535 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:01,535 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:21:06,898 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:06,899 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:21:06,900 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:06,900 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:21:12,239 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:12,239 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:21:12,240 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:12,240 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:21:14,796 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:14,796 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:21:14,798 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:14,798 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:21:17,948 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:17,948 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:21:17,949 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:17,949 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:21:42,030 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:42,030 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:21:42,031 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:42,031 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:21:47,547 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:47,547 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:21:47,549 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:47,549 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:21:51,029 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:51,029 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:21:51,030 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:21:51,030 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:22:20,303 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:22:20,304 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:22:20,305 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:22:20,305 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:22:31,825 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:22:31,825 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:22:31,826 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:22:31,826 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:22:56,903 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:22:56,903 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:22:56,904 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:22:56,904 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:23:05,336 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:23:05,337 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:23:05,338 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:23:05,338 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:23:12,421 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:23:12,422 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:23:12,423 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:23:12,423 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:23:22,085 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:23:22,085 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:23:22,086 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:23:22,086 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:27:12,340 [Worker-47] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 18:27:12,970 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:27:12,972 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:27:12,974 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:27:12,974 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:28:14,994 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:28:14,994 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:28:14,995 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:28:14,995 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:28:47,943 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:28:47,944 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:28:47,946 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:28:47,946 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:28:52,800 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:28:52,800 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:28:52,801 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:28:52,801 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:28:58,402 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:28:58,402 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 18:28:58,403 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:28:58,403 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 18:30:03,996 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:30:03,996 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-05 18:30:04,007 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 18:30:04,007 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 20:59:43,271 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-assembly-plugin/2.5.5/maven-assembly-plugin-2.5.5.jar
+2015-07-05 20:59:44,150 [Worker-67] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-assembly-plugin/2.5.5/maven-assembly-plugin-2.5.5.jar
+2015-07-05 20:59:44,529 [Worker-67] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 20:59:45,455 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 20:59:45,456 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 20:59:45,458 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 20:59:45,458 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:05:36,289 [Worker-69] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/twitter/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:804) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:999) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1) ~[na:na]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724) ~[na:na]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193) ~[na:na]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932) ~[na:na]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:997) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:242) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261) ~[org.eclipse.m2e.core.ui_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+2015-07-05 21:05:36,384 [Worker-70] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565) ~[org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574) ~[org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: in comment after two dashes (--) next character must be > not   (position: END_TAG seen ...<id>make-assembly</id> <!-- ... @141:41) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130) ~[maven-model-builder-3.3.3.jar:3.3.3]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94) ~[maven-model-builder-3.3.3.jar:3.3.3]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563) ~[org.eclipse.m2e.core_1.6.1.20150625-2338.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment after two dashes (--) next character must be > not   (position: END_TAG seen ...<id>make-assembly</id> <!-- ... @141:41) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseComment(MXParser.java:2392) ~[plexus-utils-3.0.20.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1215) ~[plexus-utils-3.0.20.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1131) ~[plexus-utils-3.0.20.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1116) ~[plexus-utils-3.0.20.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseBuild(MavenXpp3Reader.java:946) ~[maven-model-3.3.3.jar:3.3.3]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2239) ~[maven-model-3.3.3.jar:3.3.3]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807) ~[maven-model-3.3.3.jar:3.3.3]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557) ~[maven-model-3.3.3.jar:3.3.3]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125) ~[maven-model-builder-3.3.3.jar:3.3.3]
+	... 26 common frames omitted
+2015-07-05 21:05:47,815 [Worker-73] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:05:48,679 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:05:48,680 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:05:48,682 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:05:48,682 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:06:05,762 [Worker-73] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:06:07,094 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:06:07,098 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-05 21:06:07,103 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:06:07,103 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:06:23,341 [Worker-74] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:06:23,856 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:06:23,857 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:06:23,859 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:06:23,859 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:07:32,258 [Worker-72] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:07:32,811 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:07:32,812 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:07:32,813 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:07:32,813 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:08:11,988 [Worker-71] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:08:12,526 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:08:12,527 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:08:12,529 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:08:12,529 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:17:25,819 [Worker-79] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:17:26,381 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:17:26,382 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:17:26,384 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:17:26,384 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:17:31,943 [Worker-79] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:17:32,460 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:17:32,461 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:17:32,464 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:17:32,464 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:17:40,016 [Worker-84] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:17:40,508 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:17:40,509 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:17:40,511 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:17:40,511 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:24:45,319 [Worker-90] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:24:45,877 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:24:45,878 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:24:45,880 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:24:45,880 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:24:49,800 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:24:50,303 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:24:50,304 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:24:50,307 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:24:50,307 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:25:04,815 [Worker-87] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:25:05,278 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:25:05,279 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:25:05,281 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:25:05,281 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:29:24,189 [Worker-95] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:29:24,707 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:29:24,708 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:29:24,710 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:29:24,710 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:29:31,842 [Worker-96] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.berkeley.mids.scaling.streaming:twitter:0.0.1-SNAPSHOT @ /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/pom.xml.
+2015-07-05 21:29:32,308 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:29:32,309 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:29:32,311 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:29:32,311 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:34:57,777 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:34:57,781 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:34:57,783 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:34:57,783 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:35:12,195 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:35:12,196 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:35:12,197 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:35:12,197 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:40:45,787 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:40:45,788 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-05 21:40:45,796 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:40:45,796 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:41:04,003 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:41:04,004 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-07-05 21:41:04,006 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:41:04,007 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:41:47,483 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:41:47,483 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:41:47,484 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:41:47,484 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:41:53,960 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:41:53,960 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:41:53,961 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:41:53,961 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:42:00,571 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:42:00,571 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:42:00,572 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:42:00,572 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-05 21:42:09,388 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:42:09,389 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-05 21:42:09,390 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-05 21:42:09,390 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 07:59:14,449 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 07:59:14,453 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 07:59:14,454 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 07:59:14,454 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 07:59:41,064 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 07:59:41,064 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 07:59:41,065 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 07:59:41,065 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 07:59:42,071 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 07:59:42,072 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 07:59:42,073 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 07:59:42,073 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:00:13,777 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:00:13,778 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:00:13,779 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:00:13,779 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:00:17,734 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:00:17,734 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:00:17,735 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:00:17,735 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:00:31,829 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:00:31,829 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:00:31,830 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:00:31,830 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:01:33,804 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:01:33,804 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:01:33,805 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:01:33,805 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:01:40,503 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:01:40,504 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:01:40,506 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:01:40,507 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:06:56,424 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:06:56,424 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:06:56,425 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:06:56,425 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:07:18,104 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:07:18,104 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:07:18,105 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:07:18,105 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:07:48,859 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:07:48,860 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:07:48,860 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:07:48,861 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:08:04,143 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:08:04,143 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:08:04,144 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:08:04,145 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:08:22,844 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:08:22,844 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:08:22,846 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:08:22,846 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:08:26,158 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:08:26,158 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:08:26,159 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:08:26,159 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:13:38,108 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:13:38,108 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:13:38,109 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:13:38,109 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:14:05,149 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:14:05,149 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:14:05,151 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:14:05,151 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:20:42,398 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:20:42,398 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:20:42,399 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:20:42,399 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:20:44,445 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:20:44,446 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:20:44,446 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:20:44,446 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:21:11,420 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:21:11,420 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:21:11,421 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:21:11,421 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:21:47,796 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:21:47,796 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:21:47,796 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:21:47,797 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:22:58,460 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:22:58,461 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:22:58,462 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:22:58,462 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:23:04,997 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:23:04,998 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:23:04,999 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:23:04,999 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:23:10,073 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:23:10,073 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:23:10,074 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:23:10,074 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:23:12,413 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:23:12,413 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:23:12,414 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:23:12,414 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:35:24,927 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:35:24,928 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:35:24,929 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:35:24,929 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:35:26,077 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:35:26,077 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:35:26,078 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:35:26,078 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:35:33,872 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:35:33,873 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:35:33,873 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:35:33,873 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:35:38,014 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:35:38,014 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:35:38,015 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:35:38,015 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:37:38,323 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:37:38,324 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:37:38,324 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:37:38,324 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:38:08,229 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:38:08,229 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:38:08,230 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:38:08,230 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:38:16,318 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:38:16,318 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:38:16,319 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:38:16,319 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:38:26,927 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:38:26,927 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:38:26,929 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:38:26,929 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 08:57:47,175 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:57:47,178 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 08:57:47,179 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 08:57:47,180 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 09:00:32,089 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 09:00:32,090 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 09:00:32,091 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 09:00:32,091 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 09:00:36,874 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 09:00:36,874 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 09:00:36,875 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 09:00:36,875 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 09:03:52,609 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 09:03:52,609 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 09:03:52,610 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 09:03:52,610 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 15:42:07,918 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 15:42:07,922 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 15:42:07,924 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 15:42:07,924 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 15:42:41,592 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 15:42:41,592 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 15:42:41,593 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 15:42:41,593 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:25:35,931 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:25:35,931 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:25:35,932 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:25:35,932 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:26:00,339 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:26:00,339 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:26:00,340 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:26:00,341 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:26:21,320 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:26:21,320 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:26:21,321 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:26:21,321 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:26:22,408 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:26:22,408 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:26:22,409 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:26:22,410 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:26:36,301 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:26:36,301 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:26:36,302 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:26:36,302 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:27:21,617 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:27:21,620 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:27:21,621 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:27:21,621 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:27:30,550 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:27:30,551 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:27:30,552 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:27:30,552 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:28:52,152 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:28:52,152 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:28:52,154 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:28:52,154 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:29:00,537 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:29:00,537 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:29:00,538 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:29:00,538 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:32:55,913 [Worker-233] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.jenkins-ci.org/public/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3-sources.jar
+2015-07-06 16:32:56,786 [Worker-233] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.jenkins-ci.org/public/org/twitter4j/twitter4j-core/3.0.3/twitter4j-core-3.0.3-sources.jar
+2015-07-06 16:32:56,810 [Worker-233] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.twitter4j:twitter4j-core:3.0.3
+2015-07-06 16:32:57,305 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:32:57,306 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:32:57,306 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:32:57,306 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:33:13,651 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:33:13,652 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:33:13,653 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:33:13,653 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:33:19,233 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:33:19,233 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:33:19,234 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:33:19,234 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:33:32,063 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:33:32,063 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:33:32,064 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:33:32,064 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:34:05,590 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:34:05,590 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:34:05,591 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:34:05,591 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:34:18,413 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:34:18,414 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:34:18,414 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:34:18,414 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:34:28,034 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:34:28,034 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:34:28,036 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:34:28,036 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:34:54,889 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:34:54,889 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:34:54,890 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:34:54,890 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:38:27,571 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:38:27,571 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:38:27,572 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:38:27,572 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:41:54,379 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:41:54,380 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:41:54,380 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:41:54,381 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:42:02,176 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:42:02,176 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:42:02,177 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:42:02,177 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:42:15,489 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:42:15,489 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:42:15,490 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:42:15,490 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:42:35,519 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:42:35,519 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:42:35,520 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:42:35,520 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:42:57,309 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:42:57,309 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:42:57,310 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:42:57,310 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:43:25,454 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:43:25,454 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:43:25,455 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:43:25,455 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:43:43,331 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:43:43,331 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:43:43,332 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:43:43,332 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:43:50,131 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:43:50,131 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:43:50,132 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:43:50,132 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:44:11,799 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:44:11,799 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:44:11,800 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:44:11,800 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:44:28,794 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:44:28,794 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:44:28,795 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:44:28,795 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:44:50,645 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:44:50,645 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:44:50,646 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:44:50,646 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:45:03,337 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:45:03,338 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:45:03,339 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:45:03,339 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:46:49,040 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:46:49,040 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:46:49,041 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:46:49,041 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 16:48:57,151 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:48:57,151 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 16:48:57,152 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 16:48:57,152 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:04:09,425 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:04:09,427 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:04:09,428 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:04:09,428 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:04:36,666 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:04:36,666 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:04:36,667 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:04:36,667 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:05:11,679 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:05:11,679 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:05:11,680 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:05:11,680 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:06:59,892 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:06:59,893 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:06:59,893 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:06:59,894 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:07:35,413 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:07:35,413 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:07:35,414 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:07:35,414 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:10:03,583 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:10:03,583 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:10:03,584 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:10:03,584 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:12:19,049 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:12:19,049 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:12:19,050 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:12:19,050 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:12:35,605 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:12:35,606 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:12:35,607 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:12:35,607 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:12:38,018 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:12:38,019 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:12:38,020 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:12:38,020 [Worker-271] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:14:49,480 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:14:49,480 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:14:49,481 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:14:49,481 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:14:54,677 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:14:54,677 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:14:54,678 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:14:54,678 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:15:49,014 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:15:49,014 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:15:49,015 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:15:49,015 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:16:04,822 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:16:04,822 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:16:04,823 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:16:04,823 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:17:05,404 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:17:05,404 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:17:05,405 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:17:05,405 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:17:29,177 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:17:29,177 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:17:29,178 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:17:29,178 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:23:25,496 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:23:25,496 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:23:25,497 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:23:25,497 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:24:27,504 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:24:27,504 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:24:27,505 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:24:27,505 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:24:36,382 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:24:36,382 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:24:36,383 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:24:36,383 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:25:07,618 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:25:07,618 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:25:07,619 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:25:07,619 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:25:14,998 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:25:14,998 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:25:14,999 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:25:14,999 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:25:40,664 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:25:40,665 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:25:40,666 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:25:40,666 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:26:57,335 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:26:57,335 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:26:57,336 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:26:57,336 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:27:11,697 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:27:11,698 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:27:11,698 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:27:11,698 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:28:56,011 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:28:56,011 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:28:56,012 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:28:56,012 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:29:04,370 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:04,370 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:29:04,371 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:04,371 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:29:14,061 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:14,061 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:29:14,062 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:14,062 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:29:16,375 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:16,375 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:29:16,376 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:16,376 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:29:23,210 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:23,210 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:29:23,211 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:23,211 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:29:29,699 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:29,699 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:29:29,700 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:29,700 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:29:47,022 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:47,022 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:29:47,023 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:29:47,023 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:30:44,605 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:30:44,606 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:30:44,606 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:30:44,606 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:31:01,275 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:31:01,275 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:31:01,276 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:31:01,276 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:31:19,320 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:31:19,320 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:31:19,321 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:31:19,321 [Worker-286] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:31:26,925 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:31:26,926 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:31:26,926 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:31:26,927 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:31:39,383 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:31:39,384 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:31:39,385 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:31:39,385 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:33:07,814 [Worker-288] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:33:07,814 [Worker-288] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:33:07,815 [Worker-288] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:33:07,815 [Worker-288] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:37:30,450 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:37:30,450 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:37:30,451 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:37:30,451 [Worker-291] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:47:10,809 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:47:10,810 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:47:10,811 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:47:10,811 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:47:42,296 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:47:42,296 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:47:42,297 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:47:42,297 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:47:48,837 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:47:48,837 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:47:48,838 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:47:48,838 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:48:19,175 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:48:19,175 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:48:19,176 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:48:19,176 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:49:05,797 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:05,797 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:49:05,798 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:05,798 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:49:13,153 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:13,153 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:49:13,154 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:13,154 [Worker-298] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:49:30,305 [Worker-299] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:30,305 [Worker-299] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:49:30,306 [Worker-299] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:30,306 [Worker-299] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:49:36,318 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:36,318 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:49:36,319 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:36,319 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:49:45,040 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:45,040 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:49:45,041 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:45,041 [Worker-301] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:49:52,112 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:52,113 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:49:52,114 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:49:52,114 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:54:23,290 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:54:23,290 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:54:23,291 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:54:23,291 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:55:21,110 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:55:21,110 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:55:21,111 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:55:21,112 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:55:57,186 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:55:57,187 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:55:57,188 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:55:57,188 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources
+2015-07-06 17:56:08,279 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:56:08,279 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-06 17:56:08,280 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-06 17:56:08,280 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ssatpati/0-DATASCIENCE/DEV/github/data-acquisition-storage/scaling-up/streaming/twitter/src/test/resources

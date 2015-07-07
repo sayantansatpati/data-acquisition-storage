@@ -1,0 +1,818 @@
+2015-07-05 17:50:23,256  WARN [main] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:23,259  WARN [main] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:23,260 ERROR [main] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:23,261 ERROR [main] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,311  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:24,312  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:24,312 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,312 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,335  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:24,335  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:24,335 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,335 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,343  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:24,343  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:24,344 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,344 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,360  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:24,360  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:24,360 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,361 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,367  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:24,367  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:24,368 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,368 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,375  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:24,375  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:24,375 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,375 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:24,739 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.jdt.model.ScalaCompilationUnit$class.buildStructure(ScalaCompilationUnit.scala:116)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.buildStructure(ScalaSourceFile.scala:73)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.BecomeWorkingCopyOperation.executeOperation(BecomeWorkingCopyOperation.java:38)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:789)
+	at org.eclipse.jdt.internal.core.CompilationUnit.becomeWorkingCopy(CompilationUnit.java:99)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.createFileInfo(CompilationUnitDocumentProvider.java:1001)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.connect(CompilationUnitDocumentProvider.java:1244)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4233)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:237)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1480)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.internalDoSetInput(JavaEditor.java:2584)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.doSetInput(JavaEditor.java:2557)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSetInput(CompilationUnitEditor.java:1395)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3220)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.ui.internal.WorkbenchWindow$13.run(WorkbenchWindow.java:2157)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2153)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3238)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3265)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:390)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:305)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:337)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:258)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1246)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:69)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4732)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:488)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:454)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:705)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:392)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1145)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3210)
+	at org.eclipse.ui.internal.WorkbenchPage.access$23(WorkbenchPage.java:3125)
+	at org.eclipse.ui.internal.WorkbenchPage$9.run(WorkbenchPage.java:3107)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3102)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3066)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3056)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:541)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:500)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:360)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:167)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:268)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:233)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:275)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:251)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:376)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:538)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1142)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1249)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4199)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1467)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1490)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4042)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+2015-07-05 17:50:24,991 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.initialReconcile(InteractiveCompilationUnit.scala:164)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.initialReconcile(ScalaSourceFile.scala:83)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.initialReconcile(ScalaReconcilingStrategy.scala:58)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+2015-07-05 17:50:24,992 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:151)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:73)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.initialReconcile(ScalaReconcilingStrategy.scala:59)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+2015-07-05 17:50:24,993 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.currentProblems(InteractiveCompilationUnit.scala:184)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.currentProblems(ScalaSourceFile.scala:73)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:152)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:73)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.initialReconcile(ScalaReconcilingStrategy.scala:59)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+2015-07-05 17:50:24,997 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:89)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:88)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4.reconciled(ScalaSourceFileEditor.scala:88)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:280)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.initialReconcile(ScalaReconcilingStrategy.scala:59)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+2015-07-05 17:50:24,998 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:89)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:88)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4.reconciled(ScalaSourceFileEditor.scala:88)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:280)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.initialReconcile(ScalaReconcilingStrategy.scala:59)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+2015-07-05 17:50:25,001 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:89)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:88)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4.reconciled(ScalaSourceFileEditor.scala:88)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:280)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.initialReconcile(ScalaReconcilingStrategy.scala:59)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:114)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)
+2015-07-05 17:50:25,089  WARN [Text Viewer Hover Presenter] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:25,089  WARN [Text Viewer Hover Presenter] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:25,089 ERROR [Text Viewer Hover Presenter] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,090 ERROR [Text Viewer Hover Presenter] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,098  WARN [Text Viewer Hover Presenter] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:25,098  WARN [Text Viewer Hover Presenter] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:25,098 ERROR [Text Viewer Hover Presenter] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,098 ERROR [Text Viewer Hover Presenter] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,123 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:202)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:73)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2.apply(TextHoverFactory.scala:38)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2.apply(TextHoverFactory.scala:37)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.getHoverInfo2(TextHoverFactory.scala:37)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+2015-07-05 17:50:25,125 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:202)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:73)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:111)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl$$anonfun$1.apply(ScalaHoverImpl.scala:109)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.ui.internal.editor.hover.ScalaHoverImpl.getHoverInfo2(ScalaHoverImpl.scala:109)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.org$scalaide$debug$internal$editor$TextHoverFactory$$anon$$super$getHoverInfo2(TextHoverFactory.scala:53)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2$$anonfun$apply$5.apply(TextHoverFactory.scala:53)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2.apply(TextHoverFactory.scala:51)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1$$anonfun$2.apply(TextHoverFactory.scala:37)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.debug.internal.editor.TextHoverFactory$$anon$1.getHoverInfo2(TextHoverFactory.scala:37)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+2015-07-05 17:50:25,162  WARN [Worker-16] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:25,162  WARN [Worker-16] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:25,162 ERROR [Worker-16] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,162 ERROR [Worker-16] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,163 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:202)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:73)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob$$anonfun$performSemanticHighlighting$1.apply(Presenter.scala:119)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob$$anonfun$performSemanticHighlighting$1.apply(Presenter.scala:119)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob.performSemanticHighlighting(Presenter.scala:119)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob.run(Presenter.scala:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+2015-07-05 17:50:25,912  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:25,913  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:25,913 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,913 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,915 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:151)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:73)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2015-07-05 17:50:25,919  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:25,919  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:25,919 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,919 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,920 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.currentProblems(InteractiveCompilationUnit.scala:184)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.currentProblems(ScalaSourceFile.scala:73)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:152)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:73)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2015-07-05 17:50:25,924  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:25,924  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:25,924 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,924 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,930  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:25,930  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:25,930 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,930 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,934  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:25,935  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:25,935 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,935 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:25,969 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:89)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:88)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4.reconciled(ScalaSourceFileEditor.scala:88)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:280)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2015-07-05 17:50:25,970 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:89)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:88)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4.reconciled(ScalaSourceFileEditor.scala:88)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:280)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2015-07-05 17:50:25,971 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:112)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:90)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:216)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:212)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:89)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:88)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$4.reconciled(ScalaSourceFileEditor.scala:88)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$2.apply(ScalaSourceFileEditor.scala:303)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:303)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:280)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2015-07-05 17:50:26,280  WARN [Worker-18] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:26,280  WARN [Worker-18] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:26,280 ERROR [Worker-18] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:26,280 ERROR [Worker-18] - ScalaProject - Java Model Exception: Java Model Status [twitter does not exist]
+2015-07-05 17:50:26,303 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [twitter does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:136)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:488)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:474)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:423)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$3.apply(ScalaProject.scala:148)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:158)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:157)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:122)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:84)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:104)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:62)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:202)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:73)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob$$anonfun$performSemanticHighlighting$1.apply(Presenter.scala:119)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob$$anonfun$performSemanticHighlighting$1.apply(Presenter.scala:119)
+	at scala.Option.flatMap(Option.scala:171)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob.performSemanticHighlighting(Presenter.scala:119)
+	at org.scalaide.ui.internal.editor.decorators.semantichighlighting.Presenter$SemanticHighlightingJob.run(Presenter.scala:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+2015-07-05 17:50:29,860  WARN [Worker-13] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:29,860  WARN [Worker-13] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:32,112  WARN [Java indexing] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:32,113  WARN [Java indexing] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:33,773  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-05 17:50:33,976  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-05 17:50:34,180  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-05 17:50:34,510  WARN [Worker-13] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:34,510  WARN [Worker-13] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:35,218  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:50:35,218  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:50:35,741  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-05 17:51:39,101  WARN [Worker-18] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:51:39,101  WARN [Worker-18] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:56:04,472  WARN [main] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:56:04,472  WARN [main] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 17:56:05,581  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-05 17:59:33,176  WARN [Worker-27] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 17:59:33,176  WARN [Worker-27] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 18:17:07,988  WARN [Worker-37] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 18:17:07,988  WARN [Worker-37] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 18:21:13,741 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-05 18:21:13,742 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-05 18:21:13,742 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-05 21:05:47,393  WARN [main] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 21:05:47,396  WARN [main] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 21:05:48,373  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 21:05:48,373  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 21:05:48,771  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-05 21:05:48,846  WARN [Worker-73] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 21:05:48,847  WARN [Worker-73] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 21:06:02,822  WARN [Worker-73] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 21:06:02,823  WARN [Worker-73] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 21:06:04,515  WARN [Worker-73] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 21:06:04,515  WARN [Worker-73] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 21:06:05,388  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-05 21:06:05,388  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-05 21:06:05,805  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-06 08:07:49,785 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:07:49,790 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:07:49,791 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,244 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,244 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,244 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,244 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,244 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,244 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,244 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,244 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,244 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,244 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,245 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,245 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,245 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:21:46,246 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:37:24,075 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:37:24,075 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 08:37:24,075 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 16:32:57,157  WARN [Worker-233] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-06 16:32:57,159  WARN [Worker-233] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-06 16:41:45,138  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 862
+2015-07-06 16:41:47,705  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 804
+2015-07-06 16:44:14,916  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 989
+2015-07-06 16:44:15,968  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 990
+2015-07-06 16:44:18,023  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 989
+2015-07-06 16:44:20,082  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 991
+2015-07-06 16:44:21,636  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 925
+2015-07-06 17:25:38,135 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:25:38,136 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:25:38,136 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:30:33,787 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:30:33,791 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:30:33,792 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:49:07,203 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:49:07,204 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:49:07,204 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:49:51,583 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:49:51,696 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:49:51,696 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-06 17:49:51,696 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException

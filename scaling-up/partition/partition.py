@@ -7,8 +7,10 @@ import os
 
 def range_partition():
     d = {}
+    total = 0
     with open("/usr/share/dict/words", "r") as f:
         for l in f:
+            total += 1
             shard = l.lower()[0]
             if d.get(shard):
                 d[shard].append(l)
@@ -19,6 +21,8 @@ def range_partition():
     for k, v in d.iteritems():
         shard_lengths.append(len(v))
         print(k, len(v))
+
+    print "Total Keys: ", total
 
     plt.bar(xrange(len(d)), shard_lengths, align='center')
     plt.xticks(xrange(len(d)), d.keys())
