@@ -46,14 +46,14 @@ object Twitter {
     System.setProperty("twitter4j.oauth.accessTokenSecret", accessTokenSecret)
 
     val sparkConf = new SparkConf().setAppName("Twitter")
-    val ssc = new StreamingContext(sparkConf, Seconds(5))
+    val ssc = new StreamingContext(sparkConf, Seconds(10))
     val stream = TwitterUtils.createStream(ssc, None)
 
     val tweets = stream.filter(tweet => tweet.getHashtagEntities().length > 0)
                        .flatMap(tweet => parseTweets(tweet))
                        .reduceByKeyAndWindow((x:Tuple3[ArrayBuffer[String], ArrayBuffer[String], Int],y:Tuple3[ArrayBuffer[String], ArrayBuffer[String], Int]) => (x._1 ++ y._1, x._2 ++ y._2, x._3 + y._3), 
-                           Seconds(30), 
-                           Seconds(10))
+                           Seconds(300), 
+                           Seconds(300))
                        .transform(_.sortByKey(false))
                        
     tweets.print()
@@ -61,9 +61,12 @@ object Twitter {
     // Print popular hashtags
     tweets.foreachRDD(rdd => {
       val topList = rdd.takeOrdered(top_n)(Ordering[Int].reverse.on(x=> (x._2)._3))
-      println("\n\n### Popular topics in last 30 seconds (%s total):".format(rdd.count()))
+      
+      println("====================================================================")
+      println("\n\n### Popular topics in last 300 seconds (%s total):".format(rdd.count()))
+      println("====================================================================")
+      
       topList.foreach{case (tag, (author, userMention, count)) => println("%s\t%s\t%s\t%s".format(tag, author.toString(), userMention.toString(), count))}
-      println("--------------------------------------------------------------------")
       println("--------------------------------------------------------------------")
     })
     

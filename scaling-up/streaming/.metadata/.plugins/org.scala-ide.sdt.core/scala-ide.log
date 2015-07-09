@@ -819,3 +819,16 @@ Java Model Exception: Java Model Status [twitter does not exist]
 2015-07-06 18:17:42,451 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
 2015-07-06 18:17:42,451 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
 2015-07-06 18:17:42,451 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-08 18:54:04,858  WARN [main] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-08 18:54:04,863  WARN [main] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-08 18:54:04,870  WARN [main] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-08 18:54:04,870  WARN [main] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-08 18:56:57,077  WARN [Worker-0] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-08 18:56:57,078  WARN [Worker-0] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-08 18:58:02,726 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-08 18:58:02,728 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-08 18:58:02,728 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-08 19:12:39,466  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2015-07-08 19:13:23,252 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-08 19:13:23,256 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-08 19:13:23,257 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException

@@ -11,6 +11,32 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="issueManagementUrl">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeGroupId">
+			<item value="net.alchim31.maven"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="scala-archetype-simple"/>
+		</list>
+		<list key="archetypeVersion">
+			<item value="1.5"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 		</list>
@@ -25,10 +51,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="groupId">
+			<item value="edu.berkeley.mids.scaling.streaming"/>
 		</list>
 		<list key="package">
+			<item value="edu.berkeley.mids.scaling.streaming.twitter"/>
 		</list>
 		<list key="artifactId">
+			<item value="twitter"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

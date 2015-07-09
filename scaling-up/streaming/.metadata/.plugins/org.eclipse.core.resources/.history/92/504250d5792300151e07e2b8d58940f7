@@ -1,8 +1,0 @@
-package edu.berkeley.mids.scaling.streaming.twitter
-
-/**
- * @author ssatpati
- */
-object Twitter {
-  
-}
