@@ -84,7 +84,7 @@
         <!-- see http://davidb.github.com/scala-maven-plugin -->
         <groupId>net.alchim31.maven</groupId>
         <artifactId>scala-maven-plugin</artifactId>
-        <version>3.1.3</version>
+        <version>3.2.0</version>
         <executions>
           <execution>
             <goals>
@@ -97,6 +97,7 @@
                 <arg>-dependencyfile</arg>
                 <arg>${project.build.directory}/.scala_dependencies</arg>
               </args>
+              <scalaVersion>2.10.5</scalaVersion>
             </configuration>
           </execution>
         </executions>
