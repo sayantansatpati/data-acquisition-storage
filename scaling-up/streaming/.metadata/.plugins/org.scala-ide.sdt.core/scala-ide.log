@@ -832,3 +832,7 @@ Java Model Exception: Java Model Status [twitter does not exist]
 2015-07-08 19:13:23,252 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
 2015-07-08 19:13:23,256 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
 2015-07-08 19:13:23,257 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-07-09 18:42:50,526  WARN [Worker-2] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-09 18:42:50,530  WARN [Worker-2] - ScalaProject - Project twitter runs on platform default installation.
+2015-07-09 19:26:01,084  WARN [main] - ScalaProject - Project twitter has platform default sourceLevel.
+2015-07-09 19:26:01,088  WARN [main] - ScalaProject - Project twitter runs on platform default installation.
